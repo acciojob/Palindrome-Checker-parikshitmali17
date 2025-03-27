@@ -2,7 +2,7 @@
 
 function palindrome(str){
 	
-if(str.lowerCase().trim()==str.lowerCase().replaceAll(" ",'').trim().spilt("").reverse().join(',')){
+if(str.lowerCase().trim()==str.lowerCase().replaceAll(" ",'').trim().split("").reverse().join(',')){
 	return true
 }else{
 	return false
